@@ -1,12 +1,141 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="default.css">
-<script type="text/javascript"
-  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<title>Brinda Venkataramani</title>
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 600px)" href="css/index.css">
+    <link rel="stylesheet" type="text/css" media="(max-width: 599px), (max-height: 599px)" href="css/index_compat.css">
+    <script src="js/index.js"></script>
 </head>
+
 <body>
-a site
+    <div id="borders">
+        <div id="main" class="container"><span id="name">Tao Lu</span>
+            <div id="logo" class="animated fadeIn">
+                <pre>       
+  `+ossssssssss/
+ oMMNNNMMMNNNNNy
+ss.   .MMy      
+-     +MM+      
+      yMM-      
+      NMM`      
+     `MMM       
+     -MMM-   <a class="hidden-link" href="http://www.mit.edu/~xela/tao.html" tabindex="-1">o-</a> 
+     `NMMNhydh  
+      -ymNNd+   
+    </pre>
+            </div>
+            <div class="navbar">
+                <ul class="nav-list">
+                    <li><span onclick="showProjects()">[ projects ]</a></span>
+                        <li> | </li>
+                        <li><a href="http://www.github.com/tao-lu">[ github ]</a>
+                        </li>
+                        <li> | </li>
+                        <li><a href="documents/resume.pdf">[ resume ]</a> </li>
+                </ul>
+            </div>
+        </div>
+        <div id="projects" class="hidden disabled">
+            <table>
+                <tr>
+                    <td class="col1">Text Game Client</td>
+                    <td class="col2">
+                        A graphical interface in Python for writing, editing, and playing text-based "Choose your own adventure" games.
+                    </td>
+                    <td>
+                        <a href="https://github.com/tao-lu/textgame">[ source ]</a>
+                        <br>
+                        <a href="https://github.com/tao-lu/textgame/blob/master/TextGameClientWin64.exe?raw=true">[ win64-installer ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Neural networks</td>
+                    <td class="col2">
+                        A Python class that allows for the training and validation of convolutional neural networks of varying architectures. CUDA-enabled.
+                    </td>
+                    <td><a href="https://github.com/tao-lu/convNet">[ source ]</a>
+                    </td>
+                </tr>
+                  <tr>
+                    <td class="col1">leetcode</td>
+                    <td class="col2">
+                        Solutions to several dozen algorithmic questions from <a href="http://www.leetcode.com">leetcode</a>. Implemented in C.
+                    </td>
+                    <td><a href="https://github.com/tao-lu/leetcode">[ source ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Cellular automata explorer</td>
+                    <td class="col2">
+                        A visualizer for Conway's Game of Life, among other cellular automata rules. Implemented in Java with libGDX.
+                    </td>
+                    <td><a href="https://github.com/tao-lu/game-of-life">[ source ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Waterloo Hero</td>
+                    <td class="col2">
+                        A 2D platformer level written in Java with libGDX. The player hunts geese and collects coins.
+                    </td>
+                    <td><a href="https://github.com/tao-lu/libGDX-game">[ source ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Steve Buscemi page</td>
+                    <td class="col2">
+                        A shrine to one of the finest actors in history.
+                    </td>
+                    <td><a href="buscemi/buscemi.html">[ link ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Corgipalooza</td>
+                    <td class="col2">A Chrome extension which injects corgis into the web browsing experience.
+                    </td>
+                    <td><a href="https://chrome.google.com/webstore/detail/corgipalooza/bgbmacfoiknmnlnleinopnggelahemin?utm_source=chrome-app-launcher-info-dialog">[ download ]</a>
+                        <br>
+                        <a href="https://github.com/tao-lu/corgipalooza">[ source ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Text Generator</td>
+                    <td class="col2">
+                        A Python script that generates a body of text based on user-provided input. Implemented with Markov chains and inspired by <a href="reddit.com/r/subredditsimulator">the Subreddit Simulator</a>.
+                    </td>
+                    <td><a href="documents/seal.html">[ demo ]</a>
+                        <br>
+                        <a href="https://github.com/tao-lu/markovChain">[ source ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Spotify Web Assistant Chrome Extension</td>
+                    <td class="col2">Highlight the name of any song and have it play in Spotify, provided that it exists in their database.</td>
+                    </td>
+                    <td><a href="https://chrome.google.com/webstore/detail/spotify-chrome-assistant/iccmclnedmgpamblkapkhiijconcahhi?hl=en">[ download ]</a>
+                        <br>
+                        <a href="ttps://github.com/tao-lu/spotify-web-assistant">[ source ]</a>
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Mandelbrot Set Viewer</td>
+                    <td class="col2">Generate an interesting fractal in your browser and explore it.
+                    </td>
+                    <td>
+                        <a href="documents/mandelbrot_release.html">[ link ]</a>
+                        <br>
+                        <a href="https://github.com/tao-lu/mandelbrot">[ source ]</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">Personal website</td>
+                    <td class="col2">This website has taken several forms over the past few months.</td>
+                    <td>
+                        <a href="old-site/index.html">[ old version ]</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
+
 </html>
