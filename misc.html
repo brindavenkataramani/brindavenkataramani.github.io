@@ -2,12 +2,18 @@
 <head>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 </head>
 <body>
 <h1>Miscellaneous</h1>
+<p>Last edited on:</p><p id="date"></p>
 <p>Sorry for the bad formatting on this page. It is more for me to keep track of things I am currently working on/interested in working on. If for whatever strange reason you care to know what I'm working on - well, hopefully this is satisfactory, though I doubt it will be.</p>
 <hr>
-<h1>Symbolic computation</h1>
+<h2>Symbolic computation</h2>
 <p>I am trying to work out how symbolic computation works. In particular, I want to understand how infinite cyclic groups are being represented in SAGE. Of interest, because I am trying to use category theory to map <b>Set</b> into another category which is computationally representable while preserving some important structure. This may well turn out to be impossible, and if so this project will become defunct. Preliminary code is found <a href="https://repl.it/@quanticbolt/Parsing-Math-and-Symbolic-Computation">here</a>, but you might need to modify some things to get it to work due to versional differences. I will eventually migrate this to Git.</p>
 <ul>
   <li> Adding multiple things? </li> 
@@ -15,14 +21,14 @@
   <li>Streamlining?</li>
 </ul>
 <hr>
-<h1>Category theory</h1>
+<h2>Category theory</h2>
 <p>Trying to find computable structure to map <b>Set</b> into while preserving nice properties that we can use to push back computed results.</p>
 <ul>
   <li>Learning category theory... See <a href="https://www.youtube.com/playlist?list=PLCTMeyjMKRkoS699U0OJ3ymr3r01sI08l">here</a> for a nice set of lectures. Also Roman's book is decent. There is also a nice set of lecture notes written by Paolo Perrone on arxiv.</li>  
   <li>What nice properties do we really want our models to preserve?</li>
 </ul>
 <hr>
-<h1>Quantum mechanics with sets?</h1>
+<h2>Quantum mechanics with sets?</h2>
 <p>Okay, so this is a completely silly, outlandish, absurd idea, but if we assume GCH, then sets are discrete (or at least cardinalities after \(\omega\) are). Perhaps we can operate in units of cardinalities instead of in units of \(\hbar\)? Alternatively, we can just do functional analysis with sets provided we find a suitable functor to push sets onto infinite dimensional vector spaces (or rather pullback said category onto <b>Set</b>). This idea is just really silly speculation because I'm quite sure that such a "nice" functor doesn't actually exist...</p>
 </body>
 </html>
