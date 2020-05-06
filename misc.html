@@ -2,17 +2,14 @@
 <head>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
-</script>
 </head>
 <body>
 <h1>Miscellaneous</h1>
-<p>Last edited on:</p><p id="date"></p>
+<p>Last edited: <span id="datetime"></span></p>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
 <p>Sorry for the bad formatting on this page. It is more for me to keep track of things I am currently working on/interested in working on. If for whatever strange reason you care to know what I'm working on - well, hopefully this is satisfactory, though I doubt it will be.</p>
 <hr>
 <h2>Symbolic computation</h2>
